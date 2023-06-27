@@ -6,8 +6,15 @@ function chop(word){
   } else {
     chopWord = word.substring(1);
   }
+  addAy(chopWord);
   console.log(chopWord);
   return chopWord;
+}
+
+function addAy(word){
+  let wordAy = word + "ay";
+  console.log(wordAy);
+  return wordAy;
 }
 
 function subForm() {
@@ -15,9 +22,9 @@ function subForm() {
   const userString = document.getElementById("input").value;
   let firstLetter = userString[0];
   if ("aeiouAEIOU".includes(firstLetter)){
-    console.log(userString);
+    addAy(userString);
   } else {
-  chop(userString);
+    chop(userString);
   }
 }
 

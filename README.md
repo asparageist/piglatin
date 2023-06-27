@@ -21,3 +21,9 @@ Code:
 const text = "chow"
 function (chop);
 Expected Output: "op"
+
+Test: "It should add "ay" to the end of the word"
+Code:
+const text = "hello"
+function (addAy);
+Expected Output: "elloay"
