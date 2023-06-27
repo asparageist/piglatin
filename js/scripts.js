@@ -1,5 +1,11 @@
-function chop(element){
-  const chopWord = element.substring(1);
+function chop(word){
+  let secondLetter = word[1];
+  let chopWord = word;
+  if ("h".includes(secondLetter)) {
+    chopWord = word.substring(2);
+  } else {
+    chopWord = word.substring(1);
+  }
   console.log(chopWord);
   return chopWord;
 }

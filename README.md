@@ -15,3 +15,9 @@ Code:
 const text = "illuminati"
 function (chop);
 Expected Output: "illuminati"
+
+Test: "It should chop off combinations of consonants such as SH or CH"
+Code:
+const text = "chow"
+function (chop);
+Expected Output: "op"
