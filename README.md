@@ -27,3 +27,9 @@ Code:
 const text = "hello"
 function (addAy);
 Expected Output: "elloay"
+
+Test: "It should add chopped letters back into the end of the word"
+Code:
+const text = "hello"
+function (addAy);
+Expected Output: "ellohay"
