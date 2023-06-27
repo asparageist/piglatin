@@ -7,8 +7,12 @@ function chop(element){
 function subForm() {
   event.preventDefault();
   const userString = document.getElementById("input").value;
+  let firstLetter = userString[0];
+  if ("aeiouAEIOU".includes(firstLetter)){
+    console.log(userString);
+  } else {
   chop(userString);
-  console.log(userString);
+  }
 }
 
 window.onload = function() {

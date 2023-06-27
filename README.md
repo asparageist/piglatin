@@ -9,3 +9,9 @@ Code:
 const text = "hello"
 function(chop);
 Expected Output: "ello"
+
+Test: "It should only remove the first letter if it's a consonant"
+Code:
+const text = "illuminati"
+function (chop);
+Expected Output: "illuminati"
