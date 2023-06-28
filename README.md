@@ -33,3 +33,9 @@ Code:
 const text = "hello"
 function (addAy);
 Expected Output: "ellohay"
+
+Test: "It should split the string into multiple words and feed them through individually"
+Code:
+const text = "hello there"
+function (chop);
+Expected Output: "ellohay erethay"
